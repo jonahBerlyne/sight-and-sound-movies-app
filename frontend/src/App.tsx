@@ -7,7 +7,7 @@ import PageNotFound from './Components/PageNotFound';
 
 export default function App() {
   return (
-    <div className='bg-[#030303]'>
+    <div className='bg-[#030303] font-open'>
       <Router>
         <Header />
         <Routes>

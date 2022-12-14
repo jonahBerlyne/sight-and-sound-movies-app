@@ -12,7 +12,7 @@ interface Props extends SVGMotionProps<any> {
 function MenuButton ({
   isOpen = false,
   width = 24,
-  height = 24,
+  height = 18,
   strokeWidth = 1,
   color = "#000",
   transition = undefined,
@@ -27,8 +27,7 @@ function MenuButton ({
     },
     opened: {
       rotate: 45,
-      translateY: 0,
-      translateX: 2
+      translateY: 2
     }
   };
   const center = {
@@ -46,8 +45,7 @@ function MenuButton ({
     },
     opened: {
       rotate: -45,
-      translateY: 0,
-      translateX: -0.8
+      translateY: -2,
     }
   };
   lineProps = {
